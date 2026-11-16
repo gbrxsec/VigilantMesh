@@ -1,0 +1,25 @@
+# .NET
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+# Local configuration and secrets
+.env
+appsettings.Local.json
+appsettings.Production.json
+*.protected.json
+
+# Runtime data
+logs/
+*.log
+*.db
+*.sqlite
+agent_id.txt
+
+# OS/IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
